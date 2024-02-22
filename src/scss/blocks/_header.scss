@@ -1,10 +1,36 @@
 .header {
-	background-color: rgb(195, 220, 231);
-	padding: 50px 0;
+ &__row {
+	display: flex;
+	align-items: center;
+	padding: 17px 0;
+ }
+ &__nav {
+	flex: 1;
+	margin-left: 125px;
+ }
+ &__menu {
+	display: flex;
+	align-items: center;
+	gap: 64px;
+	color: var(--text-color);
+	font-size: 16px;
+	line-height: 150%;
+ }
+ &__control {
+	display: flex;
+	align-items: center;
+	gap: 64px;
+ }
+ &__btn {
+	&:hover {
+		opacity: 0.2;
+	}
+ }
+}
 
-	&__row {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
+.uniquifier {
+	font-family: "Open Sans", sans-serif;
+	&:hover {
+		color: rgb(186, 226, 73);
 	}
 }
