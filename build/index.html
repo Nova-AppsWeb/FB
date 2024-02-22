@@ -1,54 +1,79 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Стартовый шаблон</title>
-		<link rel="stylesheet" href="./css/main.css" />
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-	</head>
-	<body>
-		<header class="header">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Стартовый шаблон</title>
+        <link rel="stylesheet" href="./css/main.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <header class="header">
     <div class="container">
         <div class="header__row">
-            <div class="">
+            <div class="header__logo">
                 <a href="#">
-                    <img src="img/logo FB.svg" alt="">
+                    <img src="img/logo FB.svg" alt="logo" />
                 </a>
             </div>
             <nav class="header__nav">
                 <ul class="header__menu">
-                    <li><a class="uniquifier" href="">Каталог</a></li>
-                    <li><a class="uniquifier" href="">Галерея</a></li>
-                    <li><a class="uniquifier" href="">О лаборатории</a></li>
-                    <li><a class="uniquifier" href="">Контакты</a></li>
+                    <li><a class="header__menu__link" href="#">Каталог</a></li>
+                    <li><a class="header__menu__link" href="#">Галерея</a></li>
+                    <li>
+                        <a class="header__menu__link" href="#">О лаборатории</a>
+                    </li>
+                    <li><a class="header__menu__link" href="#">Контакты</a></li>
                 </ul>
             </nav>
             <div class="header__control">
-                <div><img class="header__btn" src="img/search.svg" alt="search"></div>
-                <div><img class="header__btn" src="img/log-in.svg" alt="log-in"></div>
+                <button>
+                    <img
+                        class="header__btn"
+                        src="img/search.svg"
+                        alt="search"
+                    />
+                </button>
+                <button>
+                    <img
+                        class="header__btn"
+                        src="img/log-in.svg"
+                        alt="log-in"
+                    />
+                </button>
             </div>
         </div>
     </div>
 </header>
-
-		<div class="title" style="background: url(img/background.svg)">
+ <section>
+    <div class="hero">
         <div class="container">
-            <div class="title__container">
-                <h1 class="title__h1">Крупнейшая коллекция природных артефактов</h1>
-                <div class="">Являясь всего лишь частью общей картины, интерактивные прототипы, которые представляют собой яркий пример европейского типа политической и социальной культуры.</div>
+            <div class="hero__wrapper">
+                <h1 class="hero__h1">
+                    Крупнейшая коллекция природных артефактов
+                </h1>
+                <div class="">
+                    Являясь всего лишь частью общей картины, интерактивные
+                    прототипы, которые представляют собой яркий пример
+                    европейского типа политической и социальной культуры.
+                </div>
             </div>
         </div>
-</div>
-		<footer class="footer">
-	<div class="container">
-		<h2>Footer</h2>
-	</div>
+    </div>
+</section>
+
+        <footer class="footer">
+    <div class="container">
+        <h2>Footer</h2>
+    </div>
 </footer>
 
-		<script src="./js/index.bundle.js"></script>
-	</body>
+        <script src="./js/index.bundle.js"></script>
+    </body>
 </html>

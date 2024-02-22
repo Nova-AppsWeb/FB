@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Cormorant';
     src: url('../fonts/Cormorant-LightItalic.eot');
-    src: local('Cormorant Light Italic'), local('Cormorant-LightItalic'),
-        url('Cormorant-LightItalic.eot?#iefix') format('embedded-opentype'),
-        url('Cormorant-LightItalic.woff2') format('woff2'),
-        url('Cormorant-LightItalic.woff') format('woff'),
-        url('Cormorant-LightItalic.ttf') format('truetype');
+    src: local('../fonts/Cormorant Light Italic'), local('Cormorant-LightItalic'),
+        url('../fonts/Cormorant-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Cormorant-LightItalic.woff2') format('woff2'),
+        url('../fonts/Cormorant-LightItalic.woff') format('woff'),
+        url('../fonts/Cormorant-LightItalic.ttf') format('truetype');
     font-weight: 300;
     font-style: italic;
 }
@@ -13,11 +13,11 @@
 @font-face {
     font-family: 'Cormorant';
     src: url('../fonts/Cormorant-BoldItalic.eot');
-    src: local('Cormorant Bold Italic'), local('Cormorant-BoldItalic'),
-        url('Cormorant-BoldItalic.eot?#iefix') format('embedded-opentype'),
-        url('Cormorant-BoldItalic.woff2') format('woff2'),
-        url('Cormorant-BoldItalic.woff') format('woff'),
-        url('Cormorant-BoldItalic.ttf') format('truetype');
+    src: local('../fonts/Cormorant Bold Italic'), local('Cormorant-BoldItalic'),
+        url('../fonts/Cormorant-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Cormorant-BoldItalic.woff2') format('woff2'),
+        url('../fonts/Cormorant-BoldItalic.woff') format('woff'),
+        url('../fonts/Cormorant-BoldItalic.ttf') format('truetype');
     font-weight: bold;
     font-style: italic;
 }
@@ -26,10 +26,10 @@
     font-family: 'Cormorant';
     src: url('../fonts/Cormorant-SemiBold.eot');
     src: local('Cormorant SemiBold'), local('Cormorant-SemiBold'),
-        url('Cormorant-SemiBold.eot?#iefix') format('embedded-opentype'),
-        url('Cormorant-SemiBold.woff2') format('woff2'),
-        url('Cormorant-SemiBold.woff') format('woff'),
-        url('Cormorant-SemiBold.ttf') format('truetype');
+        url('../fonts/Cormorant-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Cormorant-SemiBold.woff2') format('woff2'),
+        url('../fonts/Cormorant-SemiBold.woff') format('woff'),
+        url('../fonts/Cormorant-SemiBold.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
 }
@@ -37,11 +37,11 @@
 @font-face {
     font-family: 'Cormorant';
     src: url('../fonts/Cormorant-Medium.eot');
-    src: local('Cormorant Medium'), local('Cormorant-Medium'),
-        url('Cormorant-Medium.eot?#iefix') format('embedded-opentype'),
-        url('Cormorant-Medium.woff2') format('woff2'),
-        url('Cormorant-Medium.woff') format('woff'),
-        url('Cormorant-Medium.ttf') format('truetype');
+    src: local('../fonts/Cormorant Medium'), local('Cormorant-Medium'),
+        url('../fonts/Cormorant-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Cormorant-Medium.woff2') format('woff2'),
+        url('../fonts/Cormorant-Medium.woff') format('woff'),
+        url('../fonts/Cormorant-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
 }
@@ -49,11 +49,11 @@
 @font-face {
     font-family: 'Cormorant';
     src: url('../fonts/Cormorant-Regular.eot');
-    src: local('Cormorant Regular'), local('Cormorant-Regular'),
-        url('Cormorant-Regular.eot?#iefix') format('embedded-opentype'),
-        url('Cormorant-Regular.woff2') format('woff2'),
-        url('Cormorant-Regular.woff') format('woff'),
-        url('Cormorant-Regular.ttf') format('truetype');
+    src: local('../fonts/Cormorant Regular'), local('Cormorant-Regular'),
+        url('../fonts/Cormorant-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Cormorant-Regular.woff2') format('woff2'),
+        url('../fonts/Cormorant-Regular.woff') format('woff'),
+        url('../fonts/Cormorant-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -62,10 +62,10 @@
     font-family: 'Cormorant';
     src: url('../fonts/Cormorant-MediumItalic.eot');
     src: local('Cormorant Medium Italic'), local('Cormorant-MediumItalic'),
-        url('Cormorant-MediumItalic.eot?#iefix') format('embedded-opentype'),
-        url('Cormorant-MediumItalic.woff2') format('woff2'),
-        url('Cormorant-MediumItalic.woff') format('woff'),
-        url('Cormorant-MediumItalic.ttf') format('truetype');
+        url('../fonts/Cormorant-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Cormorant-MediumItalic.woff2') format('woff2'),
+        url('../fonts/Cormorant-MediumItalic.woff') format('woff'),
+        url('../fonts/Cormorant-MediumItalic.ttf') format('truetype');
     font-weight: 500;
     font-style: italic;
 }
@@ -73,11 +73,11 @@
 @font-face {
     font-family: 'Cormorant';
     src: url('../fonts/Cormorant-Italic.eot');
-    src: local('Cormorant Italic'), local('Cormorant-Italic'),
-        url('Cormorant-Italic.eot?#iefix') format('embedded-opentype'),
-        url('Cormorant-Italic.woff2') format('woff2'),
-        url('Cormorant-Italic.woff') format('woff'),
-        url('Cormorant-Italic.ttf') format('truetype');
+    src: local('../fonts/Cormorant Italic'), local('Cormorant-Italic'),
+        url('../fonts/Cormorant-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Cormorant-Italic.woff2') format('woff2'),
+        url('../fonts/Cormorant-Italic.woff') format('woff'),
+        url('../fonts/Cormorant-Italic.ttf') format('truetype');
     font-weight: normal;
     font-style: italic;
 }
@@ -86,10 +86,10 @@
     font-family: 'Cormorant';
     src: url('../fonts/Cormorant-Light.eot');
     src: local('Cormorant Light'), local('Cormorant-Light'),
-        url('Cormorant-Light.eot?#iefix') format('embedded-opentype'),
-        url('Cormorant-Light.woff2') format('woff2'),
-        url('Cormorant-Light.woff') format('woff'),
-        url('Cormorant-Light.ttf') format('truetype');
+        url('../fonts/Cormorant-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Cormorant-Light.woff2') format('woff2'),
+        url('../fonts/Cormorant-Light.woff') format('woff'),
+        url('../fonts/Cormorant-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
 }
@@ -97,11 +97,11 @@
 @font-face {
     font-family: 'Cormorant';
     src: url('../fonts/Cormorant-SemiBoldItalic.eot');
-    src: local('Cormorant SemiBold Italic'), local('Cormorant-SemiBoldItalic'),
-        url('Cormorant-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
-        url('Cormorant-SemiBoldItalic.woff2') format('woff2'),
-        url('Cormorant-SemiBoldItalic.woff') format('woff'),
-        url('Cormorant-SemiBoldItalic.ttf') format('truetype');
+    src: local('../fonts/Cormorant SemiBold Italic'), local('Cormorant-SemiBoldItalic'),
+        url('../fonts/Cormorant-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Cormorant-SemiBoldItalic.woff2') format('woff2'),
+        url('../fonts/Cormorant-SemiBoldItalic.woff') format('woff'),
+        url('../fonts/Cormorant-SemiBoldItalic.ttf') format('truetype');
     font-weight: 600;
     font-style: italic;
 }
@@ -133,11 +133,11 @@
 @font-face {
     font-family: 'Open Sans';
     src: url('../fonts/OpenSans-Regular.eot');
-    src: local('Open Sans Regular'), local('OpenSans-Regular'),
-        url('OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
-        url('OpenSans-Regular.woff2') format('woff2'),
-        url('OpenSans-Regular.woff') format('woff'),
-        url('OpenSans-Regular.ttf') format('truetype');
+    src: local('../fonts/Open Sans Regular'), local('OpenSans-Regular'),
+        url('../fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/OpenSans-Regular.woff2') format('woff2'),
+        url('../fonts/OpenSans-Regular.woff') format('woff'),
+        url('../fonts/OpenSans-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -145,11 +145,11 @@
 @font-face {
     font-family: 'Open Sans';
     src: url('../fonts/OpenSans-BoldItalic.eot');
-    src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'),
-        url('OpenSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
-        url('OpenSans-BoldItalic.woff2') format('woff2'),
-        url('OpenSans-BoldItalic.woff') format('woff'),
-        url('OpenSans-BoldItalic.ttf') format('truetype');
+    src: local('../fonts/Open Sans Bold Italic'), local('OpenSans-BoldItalic'),
+        url('../fonts/OpenSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/OpenSans-BoldItalic.woff2') format('woff2'),
+        url('../fonts/OpenSans-BoldItalic.woff') format('woff'),
+        url('../fonts/OpenSans-BoldItalic.ttf') format('truetype');
     font-weight: bold;
     font-style: italic;
 }
@@ -157,11 +157,11 @@
 @font-face {
     font-family: 'Open Sans';
     src: url('../fonts/OpenSans-SemiBold.eot');
-    src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'),
-        url('OpenSans-SemiBold.eot?#iefix') format('embedded-opentype'),
-        url('OpenSans-SemiBold.woff2') format('woff2'),
-        url('OpenSans-SemiBold.woff') format('woff'),
-        url('OpenSans-SemiBold.ttf') format('truetype');
+    src: local('../fonts/Open Sans SemiBold'), local('OpenSans-SemiBold'),
+        url('../fonts/OpenSans-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/OpenSans-SemiBold.woff2') format('woff2'),
+        url('../fonts/OpenSans-SemiBold.woff') format('woff'),
+        url('../fonts/OpenSans-SemiBold.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
 }
@@ -169,11 +169,11 @@
 @font-face {
     font-family: 'Open Sans';
     src: url('../fonts/OpenSans-ExtraBoldItalic.eot');
-    src: local('Open Sans ExtraBold Italic'), local('OpenSans-ExtraBoldItalic'),
-        url('OpenSans-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
-        url('OpenSans-ExtraBoldItalic.woff2') format('woff2'),
-        url('OpenSans-ExtraBoldItalic.woff') format('woff'),
-        url('OpenSans-ExtraBoldItalic.ttf') format('truetype');
+    src: local('../fonts/Open Sans ExtraBold Italic'), local('OpenSans-ExtraBoldItalic'),
+        url('../fonts/OpenSans-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/OpenSans-ExtraBoldItalic.woff2') format('woff2'),
+        url('../fonts/OpenSans-ExtraBoldItalic.woff') format('woff'),
+        url('../fonts/OpenSans-ExtraBoldItalic.ttf') format('truetype');
     font-weight: 800;
     font-style: italic;
 }
@@ -181,11 +181,11 @@
 @font-face {
     font-family: 'Open Sans';
     src: url('../fonts/OpenSans-LightItalic.eot');
-    src: local('Open Sans Light Italic'), local('OpenSans-LightItalic'),
-        url('OpenSans-LightItalic.eot?#iefix') format('embedded-opentype'),
-        url('OpenSans-LightItalic.woff2') format('woff2'),
-        url('OpenSans-LightItalic.woff') format('woff'),
-        url('OpenSans-LightItalic.ttf') format('truetype');
+    src: local('../fonts/Open Sans Light Italic'), local('OpenSans-LightItalic'),
+        url('../fonts/OpenSans-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/OpenSans-LightItalic.woff2') format('woff2'),
+        url('../fonts/OpenSans-LightItalic.woff') format('woff'),
+        url('../fonts/OpenSans-LightItalic.ttf') format('truetype');
     font-weight: 300;
     font-style: italic;
 }
@@ -193,11 +193,11 @@
 @font-face {
     font-family: 'Open Sans';
     src: url('../fonts/OpenSans-Bold.eot');
-    src: local('Open Sans Bold'), local('OpenSans-Bold'),
-        url('OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
-        url('OpenSans-Bold.woff2') format('woff2'),
-        url('OpenSans-Bold.woff') format('woff'),
-        url('OpenSans-Bold.ttf') format('truetype');
+    src: local('../fonts/Open Sans Bold'), local('OpenSans-Bold'),
+        url('../fonts/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/OpenSans-Bold.woff2') format('woff2'),
+        url('../fonts/OpenSans-Bold.woff') format('woff'),
+        url('../fonts/OpenSans-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
@@ -205,11 +205,11 @@
 @font-face {
     font-family: 'Open Sans';
     src: url('../fonts/OpenSans-SemiBoldItalic.eot');
-    src: local('Open Sans SemiBold Italic'), local('OpenSans-SemiBoldItalic'),
-        url('OpenSans-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
-        url('OpenSans-SemiBoldItalic.woff2') format('woff2'),
-        url('OpenSans-SemiBoldItalic.woff') format('woff'),
-        url('OpenSans-SemiBoldItalic.ttf') format('truetype');
+    src: local('../fonts/Open Sans SemiBold Italic'), local('OpenSans-SemiBoldItalic'),
+        url('../fonts/OpenSans-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/OpenSans-SemiBoldItalic.woff2') format('woff2'),
+        url('../fonts/OpenSans-SemiBoldItalic.woff') format('woff'),
+        url('../fonts/OpenSans-SemiBoldItalic.ttf') format('truetype');
     font-weight: 600;
     font-style: italic;
 }
@@ -218,10 +218,10 @@
     font-family: 'Open Sans';
     src: url('../fonts/OpenSans-ExtraBold.eot');
     src: local('Open Sans ExtraBold'), local('OpenSans-ExtraBold'),
-        url('OpenSans-ExtraBold.eot?#iefix') format('embedded-opentype'),
-        url('OpenSans-ExtraBold.woff2') format('woff2'),
-        url('OpenSans-ExtraBold.woff') format('woff'),
-        url('OpenSans-ExtraBold.ttf') format('truetype');
+        url('../fonts/OpenSans-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/OpenSans-ExtraBold.woff2') format('woff2'),
+        url('../fonts/OpenSans-ExtraBold.woff') format('woff'),
+        url('../fonts/OpenSans-ExtraBold.ttf') format('truetype');
     font-weight: 800;
     font-style: normal;
 }
@@ -229,11 +229,11 @@
 @font-face {
     font-family: 'Open Sans';
     src: url('../fonts/OpenSans-Light.eot');
-    src: local('Open Sans Light'), local('OpenSans-Light'),
-        url('OpenSans-Light.eot?#iefix') format('embedded-opentype'),
-        url('OpenSans-Light.woff2') format('woff2'),
-        url('OpenSans-Light.woff') format('woff'),
-        url('OpenSans-Light.ttf') format('truetype');
+    src: local('../fonts/Open Sans Light'), local('OpenSans-Light'),
+        url('../fonts/OpenSans-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/OpenSans-Light.woff2') format('woff2'),
+        url('../fonts/OpenSans-Light.woff') format('woff'),
+        url('../fonts/OpenSans-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
 }
