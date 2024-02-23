@@ -1,21 +1,21 @@
 :root {
-	--container-width: 1174px;
-	--container-padding: 32px;
+    --container-width: 1174px;
+    --container-padding: 32px;
 
-	--font-main: 'Open Sans', sans-serif;
-	// --font-main:"Roboto", sans-serif;
-	--font-accent: 'Cormorant', sans-serif;
+    --font-main: 'Open Sans';
+    --font-accent: 'Cormorant';
 
-	--page-bg: rgb(29, 47, 48);
-	--text-color: white;
-	--accent: #ac182c;
+    --page-bg: rgb(29, 47, 48);
+    --text-color: white;
+    --accent: #ac182c;
 
     --laptop-size: 1199px;
-	--tablet-size: 959px;
-	--mobile-size: 599px;
+    --tablet-size: 959px;
+    --mobile-size: 599px;
 }
 
 .dark {
     --page-bg: #252526;
     --text-color: #fff;
+    --color-btn: rgb(186, 226, 73);
 }

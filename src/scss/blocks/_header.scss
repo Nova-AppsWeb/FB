@@ -12,9 +12,6 @@
         display: flex;
         align-items: center;
         gap: 64px;
-        color: var(--text-color);
-        font-size: 16px;
-        line-height: 150%;
     }
     &__control {
         display: flex;
@@ -28,8 +25,11 @@
     }
 }
 
-.header__menu__link {
+.header__menu-link {
     font-family: var(--font-main);
+    color: var(--text-color);
+    font-size: 16px;
+    line-height: 150%;
     &:hover {
         color: rgb(186, 226, 73);
         transition: 0.4s;
