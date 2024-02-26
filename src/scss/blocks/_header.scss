@@ -20,7 +20,8 @@
     }
     &__btn {
         &:hover {
-            opacity: 0.2;
+            opacity: 0.6;
+            transition: 0.4s;
         }
     }
 }

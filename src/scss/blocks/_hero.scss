@@ -33,13 +33,15 @@
         line-height: 22px;
         padding-top: 24px;
         &:hover {
-            color: rgb(145, 172, 70);
+            // color: rgb(145, 172, 70);
+            opacity: 0.6;
+            transition: 0.4s;
         }
     }
     &__btn-img {
         fill: rgb(186, 226, 73);
         &:hover {
-           fill: rgb(145, 172, 70); 
+           fill: rgb(145, 172, 70);
         }
     }
 }

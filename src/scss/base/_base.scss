@@ -11,3 +11,9 @@ body {
 a {
     color: var(--text-color);
 }
+
+.img-hover path{
+    &:hover {
+    fill: #BAE249;
+    }
+}
