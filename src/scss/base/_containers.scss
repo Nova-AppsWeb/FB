@@ -2,6 +2,9 @@
     padding: 0 var(--container-padding);
     max-width: var(--container-width);
     margin: 0 auto;
+    @media (max-width:1220px) {
+        
+    }
 }
 
 .container-right {
